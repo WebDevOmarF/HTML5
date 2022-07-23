@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable</title>
+    <style>
+        .pera-1, .pera-3, .pera-5{
+            color:red;
+            background: #fff;
+        }
+        
+        :root{
+            --color:red;
+            --bg-color:#000;
+        }
+        p{
+            color: var(--color);
+            background-color:var(--bg-color);
+
+        }
+        .side-nav, .blogs{
+            float:left;
+        }
+        .side-nav{
+            width: 100px;
+        }
+        .blogs{
+            width: calc(100% - 500px);
+        }
+        footer{
+            clear: both;
+            text-align: center;
+        }
+    </style>
+</head> 
+<body>
+    <p class="pera-1">I am a pera-1</p>
+    <p class="pera-2">I am a pera-2</p>
+    <p class="pera-3">I am a pera-3</p>
+    <p class="pera-4">I am a pera-4</p>
+    <p class="pera-5">I am a pera-5</p>
+    <p class="pera-6">I am a pera-6</p>
+    <p class="pera-7">I am a pera-7</p>
+    <p class="pera-8">I am a pera-8</p>
+    <p class="pera-9">I am a pera-9</p>
+    <p class="pera-10">I am a pera-10</p>
+    <section>
+        <aside class="side-nav">
+            <h4>Facebook</h4>
+            <h4>Intagram</h4>
+            <h4>Tiwter</h4>
+        </aside>
+        <div class="blogs">
+            <p class="blog">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae minima obcaecati, dolorum, ab amet sequi eligendi illo aliquid ratione libero, eum inventore expedita. Soluta quidem odit exercitationem enim, ducimus ab consequatur assumenda? A ipsam exercitationem quo repellat quibusdam adipisci dolore enim illo soluta, sed unde. Labore fugit expedita error hic animi quis odio molestias. Aspernatur praesentium aut voluptatum nulla numquam rem dolorum fugit error ipsam recusandae rerum illo nihil sunt alias enim cupiditate voluptas suscipit, officia dolor corporis dignissimos porro. Temporibus numquam non laboriosam accusamus? Iure facere a eum fugit ad tenetur voluptates quaerat consequuntur fugiat! Ratione, voluptatibus tempore. Ad? </p>
+        </div>
+    </section>
+    <footer>
+        this is a footer
+    </footer>
+</body>
+</html>
